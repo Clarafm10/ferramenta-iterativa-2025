@@ -61,3 +61,8 @@ footer p{
 
     transform: rotateY(180dge);
 }
+.cartao__conteudo
+.cartao__conteudo__resposta{
+ backface-visibility: hidden;
+}
+   
