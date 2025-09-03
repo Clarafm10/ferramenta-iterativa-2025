@@ -74,7 +74,7 @@ footer p{
     color: var(--card-back-color);
     font-weight: 700;
 }
-.cartao:hover .cartao:hover{
+.cartao:hover .cartao__conteudo{
 
     transform: rotateY(180deg);
 }
