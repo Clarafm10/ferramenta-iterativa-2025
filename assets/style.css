@@ -1,13 +1,16 @@
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-back-color: #f400ab;
 }
 
+
 body {
-    background:url(img/bg-desktop.webp)
-    font-family: Bai Jamjuree;
+    background: url(img/bg-desktop.webp);
+    font-family: bai jamjuree;
 }
+
+
 footer{
     background-color: black;
     color: aliceblue;
@@ -21,8 +24,10 @@ footer p{
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
 #container{
-  display: flex;
+    display: flex;
+
 }
 .cartao{
     margin: 1rem 1rem;
@@ -30,44 +35,49 @@ footer p{
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
+
 }
 
-.cartao__conteudo{
+.cartao__conteudo {
     text-align: center;
     background-color: var(--card-front-color);
     height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 300ms;
+    transform-style:preserve-3d ;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3{
     color: var(--text-color);
     border: 1px solid var(--text-color);
+
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
-
 .cartao__conteudo__pergunta p{
-    color:var(--text-color);
+
+    color: var(--text-color);
     font-weight: 500;
 }
-    .cartao__conteudo__resposta p{
+.cartao__conteudo__resposta p{
+
     color: var(--card-back-color);
     font-weight: 700;
-    }
-.cartao:houver .cartao__conteudo{
+}
+.cartao:hover .cartao:hover{
 
-    transform: rotateY(180dge);
+    transform: rotateY(180deg);
 }
-.cartao__conteudo
+.cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
- backface-visibility: hidden;
- position: 100%;
- width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .cartao__conteudo__resposta{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
-   
