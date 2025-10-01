@@ -15,3 +15,9 @@ criacartao{
     'O que é a função refrencial?',
     'tem como objetivo transmitir informações de forma objetiva e direta, focando no contexto da comunicação . '
 }
+
+criacartao{
+    'Funções de linguagem',
+    'O que é a função conativa?',
+    ' foca no receptor da mensagem, buscando persuadi-lo a realizar uma ação, a aceitar uma ideia ou a mudar seu comportamento . '
+}
