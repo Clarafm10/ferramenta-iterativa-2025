@@ -18,5 +18,5 @@ function criaCartao(categoria, pergunta, respota) {
 
 </div>
 `
-container.appendChild(cartao)
+container.appendChild(cartao);
 }
